@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Titre de ma page</title>
+    <style type="text/css">
+        body {
+            background-color: #FFFFFF;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 30px;
+            line-height: 1.8;
+        }
+        h1 {
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        /* Ajoutez vos styles ici */
+    </style>
+</head>
+<body>
+    <h1>Mon Titre</h1>
+    <p>Mon contenu...</p>
+</body>
+</html>
+```
+
+### Étape 2 : Ajouter le lien dans la navigation
+Ouvrez `navigation.html` et ajoutez votre lien dans la section appropriée :
+
+```html
+<div class="nav-link">
+    <a href="ma-nouvelle-page.html" target="main">➤ Ma Nouvelle Page</a>
+</div>
+```
+
+### Étape 3 : Créer une nouvelle section (optionnel)
+Pour ajouter une nouvelle section dans le menu :
+
+```html
+<div class="nav-section" onclick="toggleSection('sectionX')">Nouvelle Section</div>
+<div id="sectionX">
+    <div class="nav-link"><a href="page1.html" target="main">➤ Page 1</a></div>
+    <div class="nav-link"><a href="page2.html" target="main">➤ Page 2</a></div>
+</div>
+```
+
+## Personnalisation
+
+### Changer les couleurs
+Dans chaque fichier, modifiez les couleurs dans la section `<style>` :
+- Couleur primaire : `#667eea`
+- Couleur secondaire : `#764ba2`
+- Texte : `#333`
+
+### Modifier l'en-tête
+Éditez `header.html` pour changer le logo ou le slogan.
+
+### Ajuster la largeur des frames
+Dans `index.html`, modifiez :
+- `cols="180,*"` pour changer la largeur du menu
+- `rows="120,*"` pour changer la hauteur de l'en-tête
+
+## Structure des sections actuelles
+
+1. **HTML Basics** - Introduction, Basics, Elements, Attributes, Headings
+2. **Formatting** - Text Formatting, Links, Images, Lists
+3. **Advanced** - Tables, Forms, Frames, Multimedia
+4. **CSS & Design** - CSS Introduction, Colors, Layouts
+5. **Resources** - Examples, Reference, Quiz, About
+
+## Technologies utilisées
+- XHTML 1.0
+- CSS inline
+- JavaScript (pour les sections pliables)
+- HTML Frames
+
+## Notes importantes
+- Les frames sont une technologie ancienne, considérée obsolète en HTML5
+- Ce tutorial utilise les frames à des fins éducatives
+- Pour des projets modernes, utilisez plutôt CSS Grid ou Flexbox
+
+## Auteur
+Tutorial HTML personnalisé - Version améliorée avec navigation interactive
+
+## Licence
+Libre d'utilisation pour l'apprentissage
